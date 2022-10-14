@@ -1,0 +1,65 @@
+function residuo() {
+        let num1 = 2;
+        let num2 = 7;
+        let resultado =(num1 % num2);
+        return
+}
+
+function logico1() {
+        let valido = 3;
+        let valido2 = 5;
+        if (valido > valido2) {
+                console.log("el mayor es: " + valido2);
+        }
+        logico1()
+
+}
+
+function edad() {
+        let miEdad = 8;
+        if (miEdad >=18){
+        console.log("eres mayor de edad");
+        } else {console.log("no eres mayor de edad");}
+        //el es cuando la prueba logica no ah sido satisfactoria
+        
+}
+edad()
+
+
+/*los operadores logicos permiten hacer estructuras de control mas grandes
+and(&&), or(||), not(!)*/
+
+function conjunciones() {
+    let valor1 = false;
+    let valor2 = false;
+    if (valor1 && valor2) {
+        console.log("elvalor 1 y el valor 2 son verdaderos");
+        } else {
+            console.log("un valor es falso");
+        }
+    }
+
+    conjunciones();
+
+    function disjunction1() {
+        let valor1 = false;
+        let valor2 = true; 
+        if(valor1 || valor2){
+            console.log("El operador or es verdadero");
+        }else {
+            console.log("el operador or es falso");
+        }
+        
+    }
+    disjunction1();
+
+    function negacion() {
+        let valor1 = true;
+        if (!(!valor1 )){
+            console.log("el valor es " + valor1);
+        }else{
+            console.log("el valor negado es " + valor1);
+        }
+
+    }
+    negacion();
