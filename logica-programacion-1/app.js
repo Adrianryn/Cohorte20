@@ -16,7 +16,7 @@ numbers.sort( (a,b) => {
         return -1;
     }
     return 1;
-}   ); // compara los numeros en el array para ordenarlos ascendentemente
+}   );  // compara los numeros en el array para ordenarlos ascendentemente
 console.log(numbers);
 
 numbers.sort( (a,b) => {
@@ -30,4 +30,4 @@ numbers.sort( (a,b) => {
 }   ); // compara los numeros en el array para ordenarlos descendentemente.
 console.log(numbers);
 
-Document.write=(" el orden ascendente es " + numbers)
+Document.write=(" el orden ascendente es " + numbers);
