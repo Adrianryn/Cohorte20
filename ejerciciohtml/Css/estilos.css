@@ -1,0 +1,23 @@
+#titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: hsla(296, 95%, 47%, 0.728);
+
+    border: 3px solid green ;
+    width: 100px;
+    height: 100px; 
+    overflow: scroll  ;
+    margin: 60px solid;
+    padding: 30px solid;
+    padding-left: 120px;
+}
+
+h1{
+    color: darkgoldenrod;
+    background-color: aqua;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,28 @@
+p {
+    color:blueviolet ;
+}
+pre{
+    color:aqua ;
+}
+/* // selector universal */
+*{
+    color:orange ;
+}
+em{
+    color:crimson
+}
+span{
+    color:antiquewhite
+}
+.titulo{
+color:blue;
+}
+.bl {
+    float:right;
+    background-color:black ;
+    color:azure
+}
+
+#selector {
+color: beige    ;
+}

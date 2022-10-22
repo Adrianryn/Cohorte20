@@ -1,0 +1,16 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{background-color:darkgrey;}
+nav{
+    background-color:lawngreen;
+}
+section{
+    background-color: yellow;
+}
+h2{
+    font-size: 17px;
+}
+footer{
+    background-color: grey;
+}
