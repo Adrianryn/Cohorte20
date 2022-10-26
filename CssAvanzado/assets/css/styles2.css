@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@300;500;700&display=swap');
+body{
+    background-color: rgb(199, 196, 38);
+}
+.fa-solid{
+    color: navy;
+}
+
+.fa-truck-fast{
+size: 1000px;
+}
+.fa-print{
+    color: blueviolet;
+    font-size: 500% ;
+}
+p{
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.otro{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: darkgreen;
+font-size: 50px;
+color-interpolation-filters: linearRGB;
+}
+
+h1{
+    font-size: 500%;
+}
