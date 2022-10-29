@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Bootstrap 5</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/css0.css">
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h1>Hola Bootstrap 5</h1>
+    <div class="container">
+        <p>este es parrafo dentro de un contenerdor "container"</p>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+          <div class="col uno">
+            Column
+          </div>
+          <div class="col dos">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+        </div>
+      </div>
+
+      <!-- Nueva fila -->
+      
+        <div class="row ">
+          <div class="col nuno">
+            1 de 3
+          </div>
+          <div class="col-5 ancho">
+            2 de 3(mas ancho)
+          </div>
+          <div class="col ntres">
+            3 de 3
+          </div>
+          <!-- tercera fila -->
+          
+            <div class="row justify-content-md-center ">
+              <div class="col col-lg-2">
+                1 de 3
+              </div>
+              <div class="col-md-auto ancho">
+                Varianble width content
+              </div>
+              <div class="col col-lg-2">
+                3 de 3
+              </div>
+
+              <!-- 4 ejercicio -->
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col c1">col</div>
+                  <div class="col c2">col</div>
+                  <div class="col c3">col</div>
+                  <div class="col c4">col</div>
+                </div>
+                <div class="row">
+                  <div class="col-8">col-8</div>
+                  <div class="col-4">col-4</div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <!-- Boton -->
+      <button type="button" class="btn btn-primary">pica boton bola</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <div id="liveAlertPlaceholder"></div>
+  <button id="liveAlertBtn" type="button" class="btn btn-warning">Warning</button>
+</div>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+
+  
+<button type="button" class="btn btn-link">Link</button>
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+    
+<!-- alert -->
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+<script>const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+  const alert = (message, type) => {
+    const wrapper = document.createElement('div')
+    wrapper.innerHTML = [
+      `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+      `   <div>${message}</div>`,
+      '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+      '</div>'
+    ].join('')
+  
+    alertPlaceholder.append(wrapper)
+  }
+  
+  const alertTrigger = document.getElementById('liveAlertBtn')
+  if (alertTrigger) {
+    alertTrigger.addEventListener('click', () => {
+      alert('Nice, you triggered this alert message!', 'success')
+    })
+  }</script>
+</body>
+</html>

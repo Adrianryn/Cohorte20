@@ -1,0 +1,40 @@
+.container{
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+
+.uno{
+    background-color: aquamarine;
+}
+
+.dos{
+    background-color: bisque;
+}
+
+.ancho{
+    background: yellow;
+}
+body{
+    padding: 30px;
+}
+
+.nuno{
+    background-color: aqua;
+}
+
+.ntres{
+    background-color: darkcyan ;
+}
+
+.c1{
+    background-color: cornflowerblue;
+}
+
+.c2{
+    background-color: rgb(7, 36, 92);
+    color: white;
+}
+
+.c3{
+    background-color: wheat ;
+}

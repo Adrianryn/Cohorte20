@@ -1,0 +1,40 @@
+/* relative, tiene como base la posicion original del elemento */
+*{
+    margin: 0;
+    padding: 0;
+}
+.padre
+{
+    border: 3px dashed green;
+    height: 800px;
+}
+.cuadro{
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+}
+.uno{
+    background-color: blue;
+    /* position: relative;
+    /* top bottom left and right */
+    /* top: -50px;
+    right: 100px;
+    left: 100px; */
+    
+} 
+
+/* absolute: retire el elemento del flujo normal del elemento */
+/* se mide apartir de la parte visible del navegador */
+.dos{
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    
+    /* position-sticky: mantiene el elemento la cantidad fijada */
+}
+.tres{
+    background-color: green;
+    position: sticky;
+    top: 0px;
+}
