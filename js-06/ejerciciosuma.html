@@ -10,25 +10,26 @@
 
         <h1>Numeros a Sumar</h1>
         <form id="formulario">
-            Numero 1 <input type="number" name="numero1" value="2"> <br>
-            Numero 2 <input type="number" name="numero2" value="3">
+            Numero 1 <input type="number" name="valor0" value="0"> <br>
+            Numero 2 <input type="number" name="valor1" value="0">
         
         </form>
-        <button onclick="mostrarvalores()">Mostrar</button>
+        <button onclick="suma()">Mostrar</button> <br>
+        <div id="valores"></div>
 
         <script>
-            function mostrarvalores(){
+            function suma(){
                 let formulario = document.forms["formulario"]
-                let suma = 0;
-                for (const iterator of formulario){
-                    resultado += Number(elemento.value);
-                }
-               document.getElementById("resultado").innerHTML
-                
-                
-                
-            }   
-            console.log(mostrarvalores(suma));
+                let resultado = "";
+                let valor0 = formulario["valor0"];
+                console.log(valor0);
+                let valor1 = formulario["valor1"];
+                console.log(valor1);
+                resultado = parseInt(valor0.value) + parseInt(valor1.value);
+                console.log(valor0.value);
+                console.log(valor1.value);
+                document.getElementById("valores").innerHTML = resultado;
+            }
         </script>
     
 </body>
