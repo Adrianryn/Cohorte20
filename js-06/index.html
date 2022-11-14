@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOC exercise</title>
+    <style>
+        .azul{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="azul" id="etiqueta1"> --- este es un ejemplo de DOM---</h1>
+    <p class="azul" id="parrafo">Saludos desde el DOM</p>
+    <p class="azul" id="otro">Soy otro parrafo :D</p>
+    
+   <!--  <script>
+        let etiqueta = document.getElementById("etiqueta1")
+        console.log("valor de etiqueta1" + etiqueta.innerHTML);
+    </script>
+    
+    
+        let parrafo1 = document.getElementById("parrafo")
+        console.log("valor de parrafo " + parrafo1.innerHTML);
+
+        let parrafos = document.getElementsByTagName("p");
+        for(let i=0; i < parrafos.length; i++){
+            console.log(`Numero de parrafos: ${parrafos[i].innerHTML} ` );
+
+        }; -->
+        <script>
+        /* recuperar elementos por clase */
+        let parrafo = document.getElementsByClassName("azul");
+       /*  for(let i=0; i < parrafos3.length; i++){ */
+        for (let elemento of parrafo){
+
+            console.log(`No. de parrafos: ${parrafo.length}` );
+
+        };
+        
+    </script>
+</body>
+</html>
