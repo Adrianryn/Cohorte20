@@ -1,0 +1,18 @@
+package clases;
+
+	public class claseAnimal {
+		private String raza;
+		private String nombre;
+		private int edad;
+
+	public claseAnimal(String raza, String nombre, int edad){
+		this.raza = "Gato";
+		this.nombre = "Chomuske";
+		this.edad = 1;
+		System.out.println(claseAnimal.class);
+	}
+	
+
+
+}
+
